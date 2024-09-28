@@ -1,0 +1,52 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# Fichiers de configuration de l'IDE
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers de logs
+*.log
+
+# Dossiers de migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__init__.py
+
+# Fichiers de tests temporaires
+test_results/
+coverage/
+
+# Dossiers de stockage temporaires
+/static/
+media/
+*.media
+
+# Fichiers de configuration personnels
+*.env
+.env.local
+.env.*.local
+
+# Autres fichiers générés
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Exclude local settings
+local_settings.py

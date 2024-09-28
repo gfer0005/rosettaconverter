@@ -1,0 +1,1 @@
+web: gunicorn rosettaconverter.wsgi --log-file -
