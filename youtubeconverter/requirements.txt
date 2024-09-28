@@ -7,8 +7,10 @@ crispy==0.8.0
 crispy-bootstrap5==2024.2
 cycler==0.12.1
 decorator==4.4.2
+dj-database-url==2.2.0
 Django==5.1.1
 django-crispy-forms==2.3
+django-heroku==0.3.1
 fabio==2024.9.0
 fonttools==4.54.1
 gunicorn==23.0.0
@@ -27,6 +29,7 @@ packaging==24.1
 pillow==10.4.0
 platformdirs==4.3.6
 proglog==0.1.10
+psycopg2==2.9.9
 pycryptodomex==3.20.0
 pyparsing==3.1.4
 PyQt6==6.7.1
@@ -46,5 +49,6 @@ tqdm==4.66.5
 typing_extensions==4.12.2
 urllib3==2.2.3
 websockets==13.1
+whitenoise==6.7.0
 xraydb==4.5.4
 yt-dlp==2024.9.27

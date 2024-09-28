@@ -1,1 +1,1 @@
-web: gunicorn youtubeconverter.wsgi --log-file -
+web: gunicorn youtubeconverter.wsgi:application --log-file -
